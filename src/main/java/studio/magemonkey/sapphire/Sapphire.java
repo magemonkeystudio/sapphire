@@ -33,6 +33,9 @@ import java.util.Objects;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
+/**
+ * Main class for the Sapphire plugin.
+ */
 public class Sapphire extends JavaPlugin {
     public static final PlaceholderType<DarkRiseItem>   RISE_ITEM       =
             PlaceholderType.create("riseItem", DarkRiseItem.class);
